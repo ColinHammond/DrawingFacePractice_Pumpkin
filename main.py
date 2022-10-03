@@ -3,7 +3,8 @@ import arcade
 pumpkin_window = arcade.open_window(1000,900, "Jack-o-Lantern")
 arcade.set_background_color(arcade.color.PURPLE_NAVY)
 arcade.start_render()
-
+greeting = arcade.Text("Ready for Oct 31", 400, 870, arcade.color.EGGSHELL, 16)
+greeting.draw()
 arcade.draw_circle_filled(500, 450, 300, arcade.color.PUMPKIN)
 arcade.draw_triangle_filled(425, 375, 500, 475, 575, 375, arcade.color.BLACK)
 arcade.draw_arc_outline(500, 374, 400, 100, arcade.color.BLACK, -180, 0, 7)
